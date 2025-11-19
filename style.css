@@ -1,0 +1,11 @@
+* {box-sizing:border-box;}
+body {margin:0; background:#1a1a1a; color:#eee; font-family:Segoe UI, sans-serif; height:100vh;}
+#wrapper {display:flex; flex-direction:column; height:100vh; max-width:800px; margin:0 auto;}
+#header {padding:10px; background:#ff4d4d; display:flex; justify-content:space-between; align-items:center; font-weight:bold;}
+#messages {flex:1; padding:15px; overflow-y:auto; background:#222;}
+.msg {margin:8px 0; word-wrap:break-word;}
+.event {color:#888; font-size:0.9em; margin:5px 0;}
+#form {display:flex; padding:10px; background:#111; border-top:1px solid #333;}
+#form input {flex:1; padding:12px; background:#333; border:none; color:white; font-size:16px;}
+#form button {padding:0 20px; background:#ff4d4d; border:none; color:white; cursor:pointer; font-weight:bold;}
+#logout {background:#333; padding:8px 12px; border:none; color:white; cursor:pointer;}
